@@ -1,5 +1,4 @@
 // Copyright 2021 NNTU-CS
-
 #include <string>
 #include <map>
 #include "tstack.h"
@@ -37,6 +36,7 @@ std::string infx2pstfx(std::string inf) {
     exit.pop_back();
     return exit;
 }
+
 int eval(std::string pref) {
     TStack<int, 100> stack2;
     std::string sTemp;
